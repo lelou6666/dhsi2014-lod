@@ -1,0 +1,672 @@
+HTTP/1.1 303 See Other
+Date: Tue, 03 Jun 2014 13:48:47 GMT
+Content-Type: application/rdf+xml; qs=0.95
+Content-Length: 0
+Connection: keep-alive
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+TCN: choice
+Vary: negotiate,accept
+Link: <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/resource/David_Grisman>; rel="timegate"
+Location: http://dbpedia.org/data/David_Grisman.xml
+
+HTTP/1.1 200 OK
+Date: Tue, 03 Jun 2014 13:48:47 GMT
+Content-Type: application/rdf+xml; charset=UTF-8
+Content-Length: 51362
+Connection: keep-alive
+Vary: Accept-Encoding
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+Expires: Tue, 10 Jun 2014 13:48:47 GMT
+Link: <http://dbpedia.org/data/David_Grisman.n3>; rel="alternate"; type="text/n3"; title="Structured Descriptor Document (N3/Turtle format)", <http://dbpedia.org/data/David_Grisman.json>; rel="alternate"; type="application/json"; title="Structured Descriptor Document (RDF/JSON format)", <http://dbpedia.org/data/David_Grisman.atom>; rel="alternate"; type="application/atom+xml"; title="OData (Atom+Feed format)", <http://dbpedia.org/data/David_Grisman.jsod>; rel="alternate"; type="application/odata+json"; title="OData (JSON format)", <http://dbpedia.org/page/David_Grisman>; rel="alternate"; type="text/html"; title="XHTML+RDFa", <http://dbpedia.org/resource/David_Grisman>; rel="http://xmlns.com/foaf/0.1/primaryTopic", <http://dbpedia.org/resource/David_Grisman>; rev="describedby", <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/data/David_Grisman.xml>; rel="timegate"
+X-SPARQL-default-graph: http://dbpedia.org
+Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop="http://dbpedia.org/property/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:ns8="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Grisman_Quintet">
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:currentMembers rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Old_and_in_the_Way">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Herb_Pedersen">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jerry_Garcia">
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Even_Dozen_Jug_Band_(album)">
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Muleskinner_(band)">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Been_All_Around_This_World">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Garcia/Grisman">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Grateful_Dawg_(soundtrack)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Not_for_Kids_Only">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Old_and_in_the_Gray">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Old_and_in_the_Way_(album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shady_Grove_(Jerry_Garcia_and_David_Grisman_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Silver_Jubilee_(Riders_in_the_Sky_album)">
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/So_What_(Garcia/Grisman_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/That_High_Lonesome_Sound">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Pizza_Tapes">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/DGQ-20">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawg_Jazz/Dawg_Grass">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawganova">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawgwood">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hot_Dawg">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Martin_Fierro_(saxophonist)">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mondo_Mando">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Quintet_&#39;80">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Svingin&#39;_with_Svend">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_David_Grisman_Rounder_Record">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Acousticity_(David_Grisman_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Best_of_the_Vanguard_Years_(Alison_Brown_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Grisman&#39;s_Acoustic_Christmas">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawg_Duos">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawgnation">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Early_Dawg">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hold_On,_We&#39;re_Strummin&#39;">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/List_of_Fridays_episodes">
+    <dbpprop:rtitle rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Livin&#39;_the_Life_(album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_River_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tone_Poems">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tone_Poems_3">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Grisman">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110340312" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110339966" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Whole100003553" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanJazzMusicians" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingThing100004258" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/MusiciansFromNewJersey" />
+    <rdf:type rdf:resource="http://schema.org/MusicGroup" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PeopleFromHackensack,NewJersey" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActorGeo" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Person100007846" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingPeople" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicalArtist" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Artist" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Entertainer109616922" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Object100002684" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/JazzMusician110220486" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/JewishSingers" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Singer110599806" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Performer110415638" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanBluegrassMusicians" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artist109812338" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PhysicalEntity100001930" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CausalAgent100007347" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Organism100004475" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActor" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Creator109614315" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/JewishAmericanMusicians" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.03193l" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://no.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1174604" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://zitgist.com/music/artist/402e4f4f-33aa-4b2b-9fdb-3cb4eb38f729" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://sv.dbpedia.org/resource/David_Grisman" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/David_Grisman" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:People_from_Hackensack,_New_Jersey" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Living_people" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_jazz_musicians" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Musicians_from_New_Jersey" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:1945_births" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_mandolinists" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_bluegrass_musicians" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Jewish_American_musicians" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Jewish_singers" />
+    <dbpedia-owl:abstract xml:lang="fr">David Grisman, né le 23 mars 1945 à Hackensack est un joueur de mandoline américain. Sa virtuosité et son sens musical en a fait l&#39;un des meilleurs mandolinistes américains actuels de bluegrass et de jazz.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="sv">David Grisman, född 23 mars 1945 i Hackensack, New Jersey, är en amerikansk musiker som trakterar mandolin. Hans musik blandar bluegrass och jazz. Efter att ha spelat i band som Even Dozen Jug Band, Earth Opera och Old &amp; In the Way bildade Grisman 1976 sin egen grupp, David Grisman Quintet, vars debutalbum gavs ut 1977. Under sin karriär har han bland annat också spelat in flera album i samarbete med Jerry García.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="nl">David Grisman is een bekend mandolinespeler in de bluegrass/newgrass scene en is bekend als componist van akoestische muziek. Grisman begon zijn muzikale carrière in 1963 als lid van de Even Dozen Jug Band. Zijn bijnaam &quot;Dawg&quot; werd hem aangemeten door zijn goede vriend Jerry Garcia. Dawg-muziek, is zoals Grisman het noemt een mix van bluegrass en Django Reinhardt/Stéphane Grappelli-achtige Jazz. Grappelli speelde ook persoonlijk mee op een aantal nummers van het Hot Dawg album. De versmelting met het jazz tijdperk van Reinhardt, zoals onder meer op laatstgenoemde plaat, heeft tot de nieuwe stroming newgrass geleid.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="en">David Grisman is an American bluegrass/newgrass mandolinist and composer of acoustic music. In the early 1990s, he started the Acoustic Disc record label to help spread acoustic and instrumental music.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="de">David Grisman ist ein US-amerikanischer Mandolinespieler und Komponist.</dbpedia-owl:abstract>
+    <dbpedia-owl:alias xml:lang="en">Dawg</dbpedia-owl:alias>
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Old_and_in_the_Way" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Earth_Opera" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Jerry_Garcia" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman_Quintet" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Andy_Statman" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Even_Dozen_Jug_Band" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Martin_Taylor_(guitarist)" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/DGBX" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Muleskinner_(band)" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Peter_Rowan" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Old_and_in_the_Way" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Earth_Opera" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Jerry_Garcia" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman_Quintet" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Even_Dozen_Jug_Band" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Andy_Statman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Martin_Taylor_(guitarist)" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/DGBX" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Muleskinner_(band)" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Peter_Rowan" />
+    <dbpedia-owl:background xml:lang="en">non_vocal_instrumentalist</dbpedia-owl:background>
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-03-22+02:00</dbpedia-owl:birthDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://dbpedia.org/resource/Hackensack,_New_Jersey" />
+    <dbpedia-owl:birthPlace rdf:resource="http://dbpedia.org/resource/New_Jersey" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Banjo" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Keyboard_instrument" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandola" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Saxophone" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Piano" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandocello" />
+    <dbpedia-owl:occupation rdf:resource="http://dbpedia.org/resource/Musician" />
+    <dbpedia-owl:occupation rdf:resource="http://dbpedia.org/resource/Record_producer" />
+    <dbpedia-owl:occupation rdf:resource="http://dbpedia.org/resource/Composer" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Sugar_Hill_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Elektra_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/A&amp;M_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Warner_Bros._Records" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667998</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544749694</dbpedia-owl:wikiPageRevisionID>
+    <rdfs:label xml:lang="fr">David Grisman</rdfs:label>
+    <rdfs:label xml:lang="en">David Grisman</rdfs:label>
+    <rdfs:label xml:lang="sv">David Grisman</rdfs:label>
+    <rdfs:label xml:lang="de">David Grisman</rdfs:label>
+    <rdfs:label xml:lang="nl">David Grisman</rdfs:label>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/3/3a/David-Grisman.jpg" />
+    <rdfs:comment xml:lang="nl">David Grisman is een bekend mandolinespeler in de bluegrass/newgrass scene en is bekend als componist van akoestische muziek. Grisman begon zijn muzikale carrière in 1963 als lid van de Even Dozen Jug Band. Zijn bijnaam &quot;Dawg&quot; werd hem aangemeten door zijn goede vriend Jerry Garcia. Dawg-muziek, is zoals Grisman het noemt een mix van bluegrass en Django Reinhardt/Stéphane Grappelli-achtige Jazz. Grappelli speelde ook persoonlijk mee op een aantal nummers van het Hot Dawg album.</rdfs:comment>
+    <rdfs:comment xml:lang="de">David Grisman ist ein US-amerikanischer Mandolinespieler und Komponist.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">David Grisman, né le 23 mars 1945 à Hackensack est un joueur de mandoline américain. Sa virtuosité et son sens musical en a fait l&#39;un des meilleurs mandolinistes américains actuels de bluegrass et de jazz.</rdfs:comment>
+    <rdfs:comment xml:lang="en">David Grisman is an American bluegrass/newgrass mandolinist and composer of acoustic music. In the early 1990s, he started the Acoustic Disc record label to help spread acoustic and instrumental music.</rdfs:comment>
+    <rdfs:comment xml:lang="sv">David Grisman, född 23 mars 1945 i Hackensack, New Jersey, är en amerikansk musiker som trakterar mandolin. Hans musik blandar bluegrass och jazz. Efter att ha spelat i band som Even Dozen Jug Band, Earth Opera och Old &amp; In the Way bildade Grisman 1976 sin egen grupp, David Grisman Quintet, vars debutalbum gavs ut 1977. Under sin karriär har han bland annat också spelat in flera album i samarbete med Jerry García.</rdfs:comment>
+    <foaf:name xml:lang="en">David Grisman</foaf:name>
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Americana_(music)" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Folk_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Jazz" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Progressive_bluegrass" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/David-Grisman.jpg/200px-David-Grisman.jpg" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.deaddisc.com/GDFD_David_Grisman.htm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.musicbox-online.com/grisman.html" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.dawgnet.com/" />
+    <dbpprop:alias xml:lang="en">Dawg</dbpprop:alias>
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/DGBX" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Jerry_Garcia" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Old_and_in_the_Way" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Even_Dozen_Jug_Band" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Muleskinner_(band)" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman_Quintet" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Martin_Taylor_(guitarist)" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Peter_Rowan" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Earth_Opera" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Andy_Statman" />
+    <dbpprop:background xml:lang="en">non_vocal_instrumentalist</dbpprop:background>
+    <dbpprop:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-03-22+02:00</dbpprop:birthDate>
+    <dbpprop:birthPlace rdf:resource="http://dbpedia.org/resource/New_Jersey" />
+    <dbpprop:birthPlace rdf:resource="http://dbpedia.org/resource/Hackensack,_New_Jersey" />
+    <dbpprop:birthPlace rdf:resource="http://dbpedia.org/resource/United_States" />
+    <dbpprop:class xml:lang="en">artist</dbpprop:class>
+    <dbpprop:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1945-03-22+02:00</dbpprop:dateOfBirth>
+    <dbpprop:founded rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</dbpprop:founded>
+    <dbpprop:founder xml:lang="en">David Grisman</dbpprop:founder>
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Americana_(music)" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Acoustic_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Folk_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Jazz" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Progressive_bluegrass" />
+    <dbpprop:id xml:lang="en">p82459/biography</dbpprop:id>
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandola" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Banjo" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Keyboard_instrument" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandocello" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Saxophone" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Piano" />
+    <dbpprop:label xml:lang="en">Electra, Sugar Hill, Pastel Records, A&amp;M, Warner Bros., Acoustic Disc</dbpprop:label>
+    <dbpprop:location rdf:resource="http://dbpedia.org/resource/San_Rafael,_California" />
+    <dbpprop:name xml:lang="en">Acoustic Disc</dbpprop:name>
+    <dbpprop:name xml:lang="en">Grisman, David</dbpprop:name>
+    <dbpprop:name xml:lang="en">David Grisman</dbpprop:name>
+    <dbpprop:occupation rdf:resource="http://dbpedia.org/resource/Record_producer" />
+    <dbpprop:occupation rdf:resource="http://dbpedia.org/resource/Musician" />
+    <dbpprop:occupation rdf:resource="http://dbpedia.org/resource/Composer" />
+    <dbpprop:placeOfBirth xml:lang="en">Hackensack, New Jersey USA</dbpprop:placeOfBirth>
+    <dbpprop:pureUrl xml:lang="en">yes</dbpprop:pureUrl>
+    <dbpprop:shortDescription xml:lang="en">Mandolinist, composer, and record label owner</dbpprop:shortDescription>
+    <dbpprop:url rdf:resource="http://www.dawgnet.com/" />
+    <dbpprop:website rdf:resource="http://www.dawgnet.com/" />
+    <foaf:homepage rdf:resource="http://www.dawgnet.com/" />
+    <foaf:givenName xml:lang="en">David</foaf:givenName>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/David_Grisman" />
+    <dc:description xml:lang="en">Mandolinist, composer, and record label owner</dc:description>
+    <ns8:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/David_Grisman?oldid=544749694" />
+    <dbpprop:hasPhotoCollection rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/David_Grisman" />
+    <foaf:surname xml:lang="en">Grisman</foaf:surname>
+    <dbpedia-owl:wikiPageInLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581</dbpedia-owl:wikiPageInLinkCount>
+    <dbpedia-owl:wikiPageOutLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</dbpedia-owl:wikiPageOutLinkCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Todd_Phillips_(musician)">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Breakdown_(Old_and_in_the_Way_album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Red_Allen_(bluegrass)">
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Common_Chord">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Home_Is_Where_the_Heart_Is_(David_Grisman_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Life_of_Sorrow">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bluegrass_Reunion">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/DGBX">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Grisman_discography">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawg&#39;s_Groove">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dawg_&#39;90">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Here_Today_(David_Grisman_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mandolin_Abstractions">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/New_Shabbos_Waltz">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Satisfied_(David_Grisman_and_John_Sebastian_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Simple_Pleasures_(album)">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Songs_of_Our_Fathers">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stephane_Grappelli/David_Grisman_Live">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Living_Room_Sessions">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Rowan_Brothers">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tone_Poems_2">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Traversata">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Acoustic_Disc">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Doc_&amp;_Dawg">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Retrograss">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/St%C3%A9phane_Grappelli">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I&#39;m_Beginning_to_See_the_Light_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Big_Bad_Mama">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Capone_(film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/King_of_the_Gypsies_(film)">
+    <dbpedia-owl:musicComposer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://cs.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Old_School_Freight_Train">
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:label rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_David_Grisman_Quintet">
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:chronology rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:producer rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Acoustic">
+    <dbpedia-owl:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Earth_Opera">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Alison_Brown">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Frank_Wakefield">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Acoustic_Disc_Records">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/David_Grisman_&amp;_Sam_Bush">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/David_Grisman">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://it.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nl.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://no.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sv.dbpedia.org/resource/David_Grisman">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wikidata.dbpedia.org/resource/Q1174604">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/David_Grisman" />
+  </rdf:Description>
+</rdf:RDF>

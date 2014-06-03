@@ -1,0 +1,403 @@
+HTTP/1.1 303 See Other
+Date: Tue, 03 Jun 2014 13:49:08 GMT
+Content-Type: application/rdf+xml; qs=0.95
+Content-Length: 0
+Connection: keep-alive
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+Accept-Ranges: bytes
+TCN: choice
+Vary: negotiate,accept
+Link: <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/resource/Bill_Monroe>; rel="timegate"
+Location: http://dbpedia.org/data/Bill_Monroe.xml
+
+HTTP/1.1 200 OK
+Date: Tue, 03 Jun 2014 13:49:09 GMT
+Content-Type: application/rdf+xml; charset=UTF-8
+Content-Length: 38366
+Connection: keep-alive
+Vary: Accept-Encoding
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+Accept-Ranges: bytes
+Expires: Tue, 10 Jun 2014 13:49:08 GMT
+Link: <http://dbpedia.org/data/Bill_Monroe.n3>; rel="alternate"; type="text/n3"; title="Structured Descriptor Document (N3/Turtle format)", <http://dbpedia.org/data/Bill_Monroe.json>; rel="alternate"; type="application/json"; title="Structured Descriptor Document (RDF/JSON format)", <http://dbpedia.org/data/Bill_Monroe.atom>; rel="alternate"; type="application/atom+xml"; title="OData (Atom+Feed format)", <http://dbpedia.org/data/Bill_Monroe.jsod>; rel="alternate"; type="application/odata+json"; title="OData (JSON format)", <http://dbpedia.org/page/Bill_Monroe>; rel="alternate"; type="text/html"; title="XHTML+RDFa", <http://dbpedia.org/resource/Bill_Monroe>; rel="http://xmlns.com/foaf/0.1/primaryTopic", <http://dbpedia.org/resource/Bill_Monroe>; rev="describedby", <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/data/Bill_Monroe.xml>; rel="timegate"
+X-SPARQL-default-graph: http://dbpedia.org
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop="http://dbpedia.org/property/"
+	xmlns:ns7="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Earl_Scruggs">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Don_Reno">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jimmy_Martin">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blue_Grass_Boys">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Muleskinner_(band)">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blue_Moon_of_Kentucky">
+    <dbpedia-owl:musicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:musicalBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tempted_(album)">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Best_of_The_Kentucky_Headhunters:_Still_Pickin&#39;">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_House_(album)">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Sessions">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Unchained_Melody:_The_Early_Years">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Busy_Bee_Cafe">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_Others&#39;_Words">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Let_There_Be_Country">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Robert_Bowlin">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Summertime_Has_Passed_and_Gone">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sweetheart,_You_Done_Me_Wrong">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Complete_Elvis_Presley_Masters">
+    <dbpprop:lyrics rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:music rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Uncle_Pen_(song)">
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Ten_Small_Paces">
+    <dbpprop:note rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bill_Monroe">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CausalAgent100007347" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Organism100004475" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActor" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Object100002684" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingThing100004258" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Entertainer109616922" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Whole100003553" />
+    <rdf:type rdf:resource="http://schema.org/MusicGroup" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PeopleFromOhioCounty,Kentucky" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Person100007846" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Singer110599806" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Creator109614315" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110339966" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanCountryMusicians" />
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/Band_MusicGroup" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation" />
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/Organization" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PhysicalEntity100001930" />
+    <rdf:type rdf:resource="http://schema.org/Organization" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Performer110415638" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110340312" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artist109812338" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanCountrySingers" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Band" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActorGeo" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanBluegrassMusicians" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/MusiciansFromKentucky" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://da.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://pl.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://sv.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://cy.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://uk.dbpedia.org/resource/Біл_Монро" />
+    <owl:sameAs rdf:resource="http://sw.cyc.com/concept/Mx4rvukuiZwpEbGdrcN5Y29ycA" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q170042" />
+    <owl:sameAs rdf:resource="http://cs.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://et.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://fi.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/ビル・モンロー" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0gg7s" />
+    <owl:sameAs rdf:resource="http://ko.dbpedia.org/resource/빌_먼로" />
+    <owl:sameAs rdf:resource="http://zitgist.com/music/artist/2a2be593-6984-4640-8cf1-717ec7a6e18b" />
+    <owl:sameAs rdf:resource="http://no.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://fr.dbpedia.org/resource/Bill_Monroe" />
+    <owl:sameAs rdf:resource="http://ar.dbpedia.org/resource/بيل_مونرو" />
+    <owl:sameAs rdf:resource="http://de.dbpedia.org/resource/Bill_Monroe" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:1911_births" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Country_Music_Hall_of_Fame_inductees" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:United_States_National_Medal_of_Arts_recipients" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Deaths_from_stroke" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_bluegrass_mandolinists" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:1996_deaths" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Grand_Ole_Opry_members" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Grammy_Lifetime_Achievement_Award_winners" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:International_Bluegrass_Music_Hall_of_Honor_inductees" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:People_from_Ohio_County,_Kentucky" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:National_Heritage_Fellowship_winners" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_country_singers" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Musicians_from_Kentucky" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Peabody_Award_winners" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Rock_and_Roll_Hall_of_Fame_inductees" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_country_singer-songwriters" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_bluegrass_musicians" />
+    <dbpedia-owl:abstract xml:lang="es">Wllliam Smith Monroe, conocido popularmente como Bill Monroe fue un músico estadounidense. Desarrolló el estilo de música country conocido como bluegrass, que tomó el nombre de su grupo, los Blue Grass Boys, así bautizados en honor de su estado natal, Kentucky. Su carrera como cantante, instrumentista, compositor y líder de grupos duró más de 60 años. Es llamado con frecuencia el padre del bluegrass.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pl">Bill Monroe, właśc. William Smith Monroe – muzyk amerykański. Założył zespół Blue Grass Boys (nazwa pochodzi od przydomku stanu Kentucky – stan błękitnych traw). Zespół zapoczątkował muzykę bluegrass jako nowy gatunek wywodzący się z country. Przez ponad 60 lat występował jako wokalista, mandolinista i kompozytor. W 1997 został wprowadzony do Rock and Roll Hall of Fame. Bill Monroe urodził się na farmie w pobliżu Rosine, w stanie Kentucky, w 1911 roku. Jego matka i jej brat dużo w domu śpiewali i grali na banjo i gitarze, tak że Bill wyrastał wśród ludowej muzyki. Ponieważ był najmłodszy spośród 8-osobowego rodzeństwa, starsi zagospodarowali „lepsze” instrumenty i jemu pozostała mandolina. Monroe wspominał, że starsi bracia wymontowali mu cztery struny gdyż jego mandolina była za głośna. Mama zmarła gdy miał 10 lat, wychowywał się u wuja, który grał na skrzypcach, akompaniując mu na lokalnych potańcówkach. W 1929 roku Bill wraz z dwoma braćmi wyjechał do Indiany do pracy w rafinerii. Założyli tam zespół Monroe Brothers, grając gdzie się da. W 1936 roku podpisali kontrakt z RCA Victor, dla której nagrywali przez dwa lata. W 1939 roku Bill wyjechał do Atlanty gdzie powołał do życia Blue Grass Boys, już bez braci w składzie. Początkowo nagrywali typowe utwory, krótkie i w szybkim tempie. Później Monroe zaczął eksperymentować ze składem i sposobem gry. W 1946 i 1947 roku nagrywał z zespołem w Columbia Records. Te nagrania stały się wzorem stylu bluegrass. Kilka z nich stało się klasykami: „Toy Heart,” „Blue Grass Breakdown,” „Molly and Tenbrooks,” „Wicked Path of Sin,” „My Rose of Old Kentucky,” „Little Cabin Home on the Hill,”.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="nl">Bill Monroe ontwikkelde de muziekstijl bekend als bluegrass, die genoemd is naar zijn begeleidingsband the Blue Grass Boys, op hun beurt weer genoemd naar zijn geboortestaat Kentucky. Monroes actieve carrière omspande zestig jaar als zanger, instrumentalist, componist en bandleider. Zijn muzikale loopbaan begon in de jaren dertig toen hij samen met zijn oudere broer Charlie begon op te treden als duet, the Monroe Brothers. Nadat de broers in 1939 uit elkaar waren gegaan formeerde Bill als snel de eerste editie van the Blue Grass Boys op en in datzelfde jaar werd hij een regelmatige gast in de Grand Ole Opry. Als mandolinespeler bracht Monroe een virtuositeit in countrymuziek die daarvoor ongekend was. In 1945 nam hij Earl Scruggs aan die hetzelfde deed voor de banjo. Deze groep, waarvan ook zanger/gitarist Lester Flatt deel uitmaakte, wordt beschouwd als de eerste echte bluegrassband. Meer dan 150 muzikanten maakten over de jaren deel uit van the Blue Grass Boys. Velen hiervan werden later sterren op eigen kracht, waaronder: Mac Wiseman, Sonny Osborne, Jimmy Martin, Don Reno, en Carter Stanley. Bill Monroe werd in 1971 opgenomen in de Country Music Hall of Fame, in 1989 in de IBMA Hall of Honor en in 1997 in de Rock and Roll Hall of Fame (voor zijn &quot;early influence&quot;). Hij is de enige artiest die al deze drie eren te beurt viel. Daarnaast werd hij in 1971 opgenomen in de Nashville Songwriters Hall of Fame.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="en">William Smith Monroe (September 13, 1911 – September 9, 1996) was an American musician who created the style of music known as bluegrass, which takes its name from his band, the &quot;Blue Grass Boys,&quot; named for Monroe&#39;s home state of Kentucky. Monroe&#39;s performing career spanned 60 years as a singer, instrumentalist, composer and bandleader. He is often referred to as The Father of Bluegrass.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ja">ビル・モンロー（Bill Monroe, 1911年9月13日 - 1996年9月9日）はブルーグラスとして知られる音楽スタイルの確立に寄与したアメリカ人音楽家である。ブルーグラスの名は、彼のバンド名:en:Blue Grass Boysから採ったもの。モンローは60年間、歌手・演奏者・作曲者・バンドリーダーとしての経歴を持ち、「ブルーグラスの父」と評される。</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="sv">William &quot;Bill&quot; Smith Monroe, född 13 september 1911 i Rosine, Kentucky, USA, död 9 september 1996, var en amerikansk sångare, mandolinspelare, orkesterledare och kompositör, känd som upphovsman till den musikstil inom countrymusik som kallas bluegrass, döpt efter Bill Monroes band &quot;the Blue Grass Boys&quot; efter Monroes hemstat Kentucky som är känd som &quot;the Blue Grass State&quot;. Monroe debuterade 1929 med sina bröder Charlie och Birch. Tillsammans bildade de trion Monroe Brothers. Bill lämnade Monroe Brothers 1938 för att starta sitt eget band. Med sin nya stil som var en blandning av traditionell amerikansk folkmusik, sydstats-gospel och blues med synkoperade rytmer och jazz-lika improvisationer slog de snabbt. Bill Monroe spelade in mängder av skivor och fortsatte att turnera till han fick en stroke i april 1996 och han avled den 9 september samma år 84 år gammal. Monroe och hans bluegrassmusik har inspirerat mängder av musiker, både inom och utom countryn. Bill Monroe invaldes i Rock and Roll Hall of Fame år 1997.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="it"></dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="de">William Smith „Bill“ Monroe war ein US-amerikanischer Countrysänger, Musiker und Komponist. Er gilt als „Father of Bluegrass“ und war bekannt für seinen hohen Gesang und seine schnellen Soloeinlagen auf der Mandoline. In seiner 61 Jahre dauernden Karriere nahm er mehr als 500 Platten auf. Zwei seiner größten Hits sind Blue Moon of Kentucky und Kentucky Waltz.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="fr">Bill Monroe, né William Smith Monroe le 13 septembre 1911 à Jerusalem Ridge, près de Rosine dans le Kentucky, et mort le 9 septembre 1996 à Springfield dans le Tennessee, est un musicien et compositeur américain qui est à l&#39;origine du développement du style de musique bluegrass. La carrière de Bill Monroe, à la fois auteur-compositeur-interprète et son propre principal agent artistique, dura plus de soixante ans pendant lesquels il eut à cœur de travailler avec de nombreux musiciens et de les encourager à créer leurs orchestres et à développer leurs propres intuitions musicales. Virtuose de la mandoline qu&#39;il utilisait pour suggérer les mélodies grâce à une technique qu&#39;il avait lui-même développée, sa manière d&#39;utiliser cet instrument eut une influence considérable dans la définition et le développement du bluegrass. Ses fans lui ont décerné, dès les années 1960, le titre de « père du bluegrass » (Father of Bluegrass).</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pt">William Smith Monroe, mais conhecido como Bill Monroe (13 de setembro de 1911 - 09 de setembro de 1996), foi um músico músico americano que criou o estilo de música conhecido como Bluegrass, que leva o nome de sua banda, o &quot;Blue Grass Boys&quot;. A carreira de músico de Monroe durou 60 anos como cantor, instrumentista, compositor e bandleader. Ele é muitas vezes referido como O Pai do Bluegrass.</dbpedia-owl:abstract>
+    <dbpedia-owl:activeYearsEndYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1996+02:00</dbpedia-owl:activeYearsEndYear>
+    <dbpedia-owl:activeYearsStartYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1930+02:00</dbpedia-owl:activeYearsStartYear>
+    <dbpedia-owl:alias xml:lang="en">Bill Monroe</dbpedia-owl:alias>
+    <dbpedia-owl:background xml:lang="en">solo_singer</dbpedia-owl:background>
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/Country_Music_Hall_of_Fame_and_Museum" />
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/Nashville_Songwriters_Hall_of_Fame" />
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/International_Bluegrass_Music_Hall_of_Fame" />
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1911-09-12+02:00</dbpedia-owl:birthDate>
+    <dbpedia-owl:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-09-08+02:00</dbpedia-owl:deathDate>
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/Grand_Ole_Opry" />
+    <dbpedia-owl:hometown rdf:resource="http://dbpedia.org/resource/Rosine,_Kentucky" />
+    <dbpedia-owl:individualisedPnd xml:lang="de">119466791</dbpedia-owl:individualisedPnd>
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Gibson_F-5" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60588</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540290618</dbpedia-owl:wikiPageRevisionID>
+    <rdfs:label xml:lang="en">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="es">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="pt">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="de">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="ja">ビル・モンロー</rdfs:label>
+    <rdfs:label xml:lang="it">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="sv">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="pl">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="fr">Bill Monroe</rdfs:label>
+    <rdfs:label xml:lang="nl">Bill Monroe</rdfs:label>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/e/ef/Bill_Monroe.jpg" />
+    <rdfs:comment xml:lang="en">William Smith Monroe (September 13, 1911 – September 9, 1996) was an American musician who created the style of music known as bluegrass, which takes its name from his band, the &quot;Blue Grass Boys,&quot; named for Monroe&#39;s home state of Kentucky. Monroe&#39;s performing career spanned 60 years as a singer, instrumentalist, composer and bandleader. He is often referred to as The Father of Bluegrass.</rdfs:comment>
+    <rdfs:comment xml:lang="sv">William &quot;Bill&quot; Smith Monroe, född 13 september 1911 i Rosine, Kentucky, USA, död 9 september 1996, var en amerikansk sångare, mandolinspelare, orkesterledare och kompositör, känd som upphovsman till den musikstil inom countrymusik som kallas bluegrass, döpt efter Bill Monroes band &quot;the Blue Grass Boys&quot; efter Monroes hemstat Kentucky som är känd som &quot;the Blue Grass State&quot;. Monroe debuterade 1929 med sina bröder Charlie och Birch. Tillsammans bildade de trion Monroe Brothers.</rdfs:comment>
+    <rdfs:comment xml:lang="pl">Bill Monroe, właśc. William Smith Monroe – muzyk amerykański. Założył zespół Blue Grass Boys (nazwa pochodzi od przydomku stanu Kentucky – stan błękitnych traw). Zespół zapoczątkował muzykę bluegrass jako nowy gatunek wywodzący się z country. Przez ponad 60 lat występował jako wokalista, mandolinista i kompozytor. W 1997 został wprowadzony do Rock and Roll Hall of Fame. Bill Monroe urodził się na farmie w pobliżu Rosine, w stanie Kentucky, w 1911 roku.</rdfs:comment>
+    <rdfs:comment xml:lang="fr">Bill Monroe, né William Smith Monroe le 13 septembre 1911 à Jerusalem Ridge, près de Rosine dans le Kentucky, et mort le 9 septembre 1996 à Springfield dans le Tennessee, est un musicien et compositeur américain qui est à l&#39;origine du développement du style de musique bluegrass.</rdfs:comment>
+    <rdfs:comment xml:lang="es">Wllliam Smith Monroe, conocido popularmente como Bill Monroe fue un músico estadounidense. Desarrolló el estilo de música country conocido como bluegrass, que tomó el nombre de su grupo, los Blue Grass Boys, así bautizados en honor de su estado natal, Kentucky. Su carrera como cantante, instrumentista, compositor y líder de grupos duró más de 60 años. Es llamado con frecuencia el padre del bluegrass.</rdfs:comment>
+    <rdfs:comment xml:lang="nl">Bill Monroe ontwikkelde de muziekstijl bekend als bluegrass, die genoemd is naar zijn begeleidingsband the Blue Grass Boys, op hun beurt weer genoemd naar zijn geboortestaat Kentucky. Monroes actieve carrière omspande zestig jaar als zanger, instrumentalist, componist en bandleider. Zijn muzikale loopbaan begon in de jaren dertig toen hij samen met zijn oudere broer Charlie begon op te treden als duet, the Monroe Brothers.</rdfs:comment>
+    <rdfs:comment xml:lang="it"></rdfs:comment>
+    <rdfs:comment xml:lang="ja">ビル・モンロー（Bill Monroe, 1911年9月13日 - 1996年9月9日）はブルーグラスとして知られる音楽スタイルの確立に寄与したアメリカ人音楽家である。ブルーグラスの名は、彼のバンド名:en:Blue Grass Boysから採ったもの。モンローは60年間、歌手・演奏者・作曲者・バンドリーダーとしての経歴を持ち、「ブルーグラスの父」と評される。</rdfs:comment>
+    <rdfs:comment xml:lang="de">William Smith „Bill“ Monroe war ein US-amerikanischer Countrysänger, Musiker und Komponist. Er gilt als „Father of Bluegrass“ und war bekannt für seinen hohen Gesang und seine schnellen Soloeinlagen auf der Mandoline. In seiner 61 Jahre dauernden Karriere nahm er mehr als 500 Platten auf. Zwei seiner größten Hits sind Blue Moon of Kentucky und Kentucky Waltz.</rdfs:comment>
+    <rdfs:comment xml:lang="pt">William Smith Monroe, mais conhecido como Bill Monroe (13 de setembro de 1911 - 09 de setembro de 1996), foi um músico músico americano que criou o estilo de música conhecido como Bluegrass, que leva o nome de sua banda, o &quot;Blue Grass Boys&quot;. A carreira de músico de Monroe durou 60 anos como cantor, instrumentista, compositor e bandleader. Ele é muitas vezes referido como O Pai do Bluegrass.</rdfs:comment>
+    <foaf:name xml:lang="en">Bill Monrow</foaf:name>
+    <foaf:name xml:lang="en">Bill Monroe</foaf:name>
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Gospel_music" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bill_Monroe.jpg/200px-Bill_Monroe.jpg" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.folkstreams.net/pub/FilmPage.php?title=210" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.countrymusichalloffame.org/full-list-of-inductees/view/bill-monroe" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.floridamemory.com/Collections/folklife/folklife_cd2.cfm" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://cms.ibma.org/site/ibma.awards/hall.of.honor/#1991" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.nashvillesongwritersfoundation.com/l-o/bill-monroe.aspx" />
+    <dbpprop:alias xml:lang="en">Bill Monroe</dbpprop:alias>
+    <dbpprop:background xml:lang="en">solo_singer</dbpprop:background>
+    <dbpprop:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1911-09-12+02:00</dbpprop:birthDate>
+    <dbpprop:birthName xml:lang="en">William Smith Monroe</dbpprop:birthName>
+    <dbpprop:currentMembers xml:lang="en">International Bluegrass Music Hall of Honor</dbpprop:currentMembers>
+    <dbpprop:currentMembers rdf:resource="http://dbpedia.org/resource/Country_Music_Hall_of_Fame_and_Museum" />
+    <dbpprop:currentMembers xml:lang="en">Rock and Roll Hall of Fame</dbpprop:currentMembers>
+    <dbpprop:currentMembers xml:lang="en">Nashville Songwriters Hall of Fame</dbpprop:currentMembers>
+    <dbpprop:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1911-09-12+02:00</dbpprop:dateOfBirth>
+    <dbpprop:dateOfDeath rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-09-08+02:00</dbpprop:dateOfDeath>
+    <dbpprop:deathDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-09-08+02:00</dbpprop:deathDate>
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Gospel_music" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpprop:name xml:lang="en">Bill Monroe</dbpprop:name>
+    <dbpprop:name xml:lang="en">Monrow, Bill</dbpprop:name>
+    <dbpprop:notableInstruments rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpprop:notableInstruments rdf:resource="http://dbpedia.org/resource/Gibson_F-5" />
+    <dbpprop:occupation xml:lang="en">Bluegrass artist</dbpprop:occupation>
+    <dbpprop:origin xml:lang="en">Rosine, Kentucky, USA</dbpprop:origin>
+    <dbpprop:pastMembers xml:lang="en">Blue Grass Boys</dbpprop:pastMembers>
+    <dbpprop:pastMembers xml:lang="en">The Monroe Brothers</dbpprop:pastMembers>
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/Grand_Ole_Opry" />
+    <dbpprop:yearsActive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1930</dbpprop:yearsActive>
+    <dbpprop:wordnet_type rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-musician-noun-1" />
+    <foaf:givenName xml:lang="en">Bill</foaf:givenName>
+    <foaf:givenName xml:lang="en">William Smith Monroe</foaf:givenName>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Bill_Monroe" />
+    <ns7:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Bill_Monroe?oldid=540290618" />
+    <dbpprop:hasPhotoCollection rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Bill_Monroe" />
+    <foaf:surname xml:lang="en">Monrow</foaf:surname>
+    <dbpedia-owl:wikiPageInLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">637</dbpedia-owl:wikiPageInLinkCount>
+    <dbpedia-owl:wikiPageOutLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</dbpedia-owl:wikiPageOutLinkCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mac_Wiseman">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://es.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ja.dbpedia.org/resource/ビル・モンロー">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ko.dbpedia.org/resource/빌_먼로">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Gary_Forrester">
+    <dbpedia-owl:influencedBy rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rave_On!!">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rual_Yarbrough">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Coal_Miner&#39;s_Daughter">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Del_McCoury">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Benny_Williams">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vassar_Clements">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Southern_Flavor">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Jim_Eanes">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lester_Flatt">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://cs.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pl.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Country_Gentlemen">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Gordons_(duo)">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bill_monrowe">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Holy_Modal_Rounders_2">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://it.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pt.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Bill_Monroe">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bill_Monroe_&amp;_His_Bluegrass_Boys">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Bill_Monroe_&amp;_the_Bluegrass_Boys">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Too_Much_Fun!">
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I_Hear_a_Sweet_Voice_Calling">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nl.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wikidata.dbpedia.org/resource/Q170042">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ar.dbpedia.org/resource/بيل_مونرو">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://cy.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://da.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://et.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fi.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://no.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://sv.dbpedia.org/resource/Bill_Monroe">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://uk.dbpedia.org/resource/Біл_Монро">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Bill_Monroe" />
+  </rdf:Description>
+</rdf:RDF>

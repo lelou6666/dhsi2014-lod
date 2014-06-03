@@ -1,0 +1,306 @@
+HTTP/1.1 303 See Other
+Date: Tue, 03 Jun 2014 13:49:22 GMT
+Content-Type: application/rdf+xml; qs=0.95
+Content-Length: 0
+Connection: keep-alive
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+Accept-Ranges: bytes
+TCN: choice
+Vary: negotiate,accept
+Link: <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/resource/Chris_Thile>; rel="timegate"
+Location: http://dbpedia.org/data/Chris_Thile.xml
+
+HTTP/1.1 200 OK
+Date: Tue, 03 Jun 2014 13:49:22 GMT
+Content-Type: application/rdf+xml; charset=UTF-8
+Content-Length: 23813
+Connection: keep-alive
+Vary: Accept-Encoding
+Server: Virtuoso/07.10.3209 (Linux) i686-generic-linux-glibc212-64  VDB
+Accept-Ranges: bytes
+Expires: Tue, 10 Jun 2014 13:49:22 GMT
+Link: <http://dbpedia.org/data/Chris_Thile.n3>; rel="alternate"; type="text/n3"; title="Structured Descriptor Document (N3/Turtle format)", <http://dbpedia.org/data/Chris_Thile.json>; rel="alternate"; type="application/json"; title="Structured Descriptor Document (RDF/JSON format)", <http://dbpedia.org/data/Chris_Thile.atom>; rel="alternate"; type="application/atom+xml"; title="OData (Atom+Feed format)", <http://dbpedia.org/data/Chris_Thile.jsod>; rel="alternate"; type="application/odata+json"; title="OData (JSON format)", <http://dbpedia.org/page/Chris_Thile>; rel="alternate"; type="text/html"; title="XHTML+RDFa", <http://dbpedia.org/resource/Chris_Thile>; rel="http://xmlns.com/foaf/0.1/primaryTopic", <http://dbpedia.org/resource/Chris_Thile>; rev="describedby", <http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/data/Chris_Thile.xml>; rel="timegate"
+X-SPARQL-default-graph: http://dbpedia.org
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dbpprop="http://dbpedia.org/property/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:ns8="http://www.w3.org/ns/prov#" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sierra_Hull">
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/How_to_Grow_a_Woman_from_the_Ground">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Leading_Off">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Punch_(album)">
+    <dbpprop:note rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Scotch_&amp;_Chocolate">
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stealing_Second">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Lighthouse&#39;s_Tale">
+    <dbpedia-owl:writer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:writer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://it.dbpedia.org/resource/Chris_Thile">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://pt.dbpedia.org/resource/Chris_Thile">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Goat_Rodeo_Sessions">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)">
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Punch_Brothers">
+    <dbpedia-owl:bandMember rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:currentMembers rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://es.dbpedia.org/resource/Chris_Thile">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chris_Thile">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Entertainer109616922" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Creator109614315" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Person100007846" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingPeople" />
+    <rdf:type rdf:resource="http://schema.org/MusicGroup" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicalArtist" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Artist" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110340312" />
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActorGeo" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/MurrayStateUniversityAlumni" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LivingThing100004258" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artist109812338" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Scholar110557854" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Alumnus109786338" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Object100002684" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanGuitarists" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Musician110339966" />
+    <rdf:type rdf:resource="http://schema.org/Person" />
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Whole100003553" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Performer110415638" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AmericanBluegrassMusicians" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Intellectual109621545" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PhysicalEntity100001930" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Guitarist110151760" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CausalAgent100007347" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Organism100004475" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/YagoLegalActor" />
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/PeopleFromSanDiegoCounty,California" />
+    <rdf:type rdf:resource="http://umbel.org/umbel/rc/MusicalPerformer" />
+    <owl:sameAs rdf:resource="http://simple.dbpedia.org/resource/Chris_Thile" />
+    <owl:sameAs rdf:resource="http://yago-knowledge.org/resource/Chris_Thile" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.01m15br" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Chris_Thile" />
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q596779" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/Chris_Thile" />
+    <owl:sameAs rdf:resource="http://ja.dbpedia.org/resource/クリス・シーリ" />
+    <owl:sameAs rdf:resource="http://it.dbpedia.org/resource/Chris_Thile" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:MacArthur_Fellows" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:1981_births" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_singer-songwriters" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_guitarists" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Murray_State_University_alumni" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Nickel_Creek_members" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_banjoists" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Living_people" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_mandolinists" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:People_from_Oceanside,_California" />
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:American_bluegrass_musicians" />
+    <dbpedia-owl:abstract xml:lang="es">. Chris Thile es un integrante del grupo californiano de bluegrass Nickel Creek, cuyo instrumento es la mandolina.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="ja">クリス・シーリはアメリカ合衆国カリフォルニア州出身のブルーグラスミュージシャン、フラットマンドリン奏者。 米国にかつて存在したバンド、ニッケル・クリークの元メンバー、現在はパンチ・ブラザーズのメンバー、マンドリン奏者、ボーカリスト。</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="pt">Chris Thile é um bandolinista norte-americano, conhecido do grupo californiano dos bluegrass Nickel Creek. Além disso, Thile gravou cinco álbuns como projectos desde 1994, intitulado primeiramente Leading Off. Em 2008, Thile planeja liberar seu sexto álbum com sua faixa nova, Punch Brothers. O grupo tem quatro membros além de Thile: Noam Pikelny, Greg Garrison, Gabe Witcher, e Chris Eldridge.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="it">Il suo cognome si pronuncia &quot;tili&quot;.</dbpedia-owl:abstract>
+    <dbpedia-owl:abstract xml:lang="en">Christopher Scott Thile is an American musician, best known as the mandolinist and a singer for the progressive acoustic trio Nickel Creek and acoustic folk/bluegrass quintet the Punch Brothers. He is a 2012 MacArthur Fellow.</dbpedia-owl:abstract>
+    <dbpedia-owl:activeYearsStartYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1989+02:00</dbpedia-owl:activeYearsStartYear>
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Punch_Brothers" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/The_Goat_Rodeo_Sessions" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Edgar_Meyer" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Nickel_Creek" />
+    <dbpedia-owl:associatedBand rdf:resource="http://dbpedia.org/resource/Mike_Marshall_(musician)" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Punch_Brothers" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/The_Goat_Rodeo_Sessions" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Edgar_Meyer" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Nickel_Creek" />
+    <dbpedia-owl:associatedMusicalArtist rdf:resource="http://dbpedia.org/resource/Mike_Marshall_(musician)" />
+    <dbpedia-owl:background xml:lang="en">solo_singer</dbpedia-owl:background>
+    <dbpedia-owl:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-02-19+02:00</dbpedia-owl:birthDate>
+    <dbpedia-owl:birthPlace rdf:resource="http://dbpedia.org/resource/California" />
+    <dbpedia-owl:birthPlace rdf:resource="http://dbpedia.org/resource/Oceanside,_California" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Banjo" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Guitar" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Drum_kit" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Singing" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Mandola" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Flatiron" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Tenor_guitar" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Double_bass" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Bouzouki" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Cello" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Viola" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Violin" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Piano" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Gibson_Guitar_Corporation" />
+    <dbpedia-owl:instrument rdf:resource="http://dbpedia.org/resource/Sitar" />
+    <dbpedia-owl:occupation rdf:resource="http://dbpedia.org/resource/Musician" />
+    <dbpedia-owl:occupation rdf:resource="http://dbpedia.org/resource/Singer-songwriter" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Sugar_Hill_Records" />
+    <dbpedia-owl:recordLabel rdf:resource="http://dbpedia.org/resource/Nonesuch_Records" />
+    <dbpedia-owl:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2139925</dbpedia-owl:wikiPageID>
+    <dbpedia-owl:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548448399</dbpedia-owl:wikiPageRevisionID>
+    <rdfs:label xml:lang="ja">クリス・シーリ</rdfs:label>
+    <rdfs:label xml:lang="es">Chris Thile</rdfs:label>
+    <rdfs:label xml:lang="pt">Chris Thile</rdfs:label>
+    <rdfs:label xml:lang="en">Chris Thile</rdfs:label>
+    <rdfs:label xml:lang="it">Chris Thile</rdfs:label>
+    <foaf:depiction rdf:resource="http://upload.wikimedia.org/wikipedia/commons/b/bc/Christhile.jpg" />
+    <rdfs:comment xml:lang="ja">クリス・シーリはアメリカ合衆国カリフォルニア州出身のブルーグラスミュージシャン、フラットマンドリン奏者。 米国にかつて存在したバンド、ニッケル・クリークの元メンバー、現在はパンチ・ブラザーズのメンバー、マンドリン奏者、ボーカリスト。</rdfs:comment>
+    <rdfs:comment xml:lang="pt">Chris Thile é um bandolinista norte-americano, conhecido do grupo californiano dos bluegrass Nickel Creek. Além disso, Thile gravou cinco álbuns como projectos desde 1994, intitulado primeiramente Leading Off. Em 2008, Thile planeja liberar seu sexto álbum com sua faixa nova, Punch Brothers. O grupo tem quatro membros além de Thile: Noam Pikelny, Greg Garrison, Gabe Witcher, e Chris Eldridge.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Christopher Scott Thile is an American musician, best known as the mandolinist and a singer for the progressive acoustic trio Nickel Creek and acoustic folk/bluegrass quintet the Punch Brothers. He is a 2012 MacArthur Fellow.</rdfs:comment>
+    <rdfs:comment xml:lang="es">. Chris Thile es un integrante del grupo californiano de bluegrass Nickel Creek, cuyo instrumento es la mandolina.</rdfs:comment>
+    <rdfs:comment xml:lang="it">Il suo cognome si pronuncia &quot;tili&quot;.</rdfs:comment>
+    <foaf:name xml:lang="en">Chris Thile</foaf:name>
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Classical_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Progressive_bluegrass" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Jazz" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Country_music" />
+    <dbpedia-owl:genre rdf:resource="http://dbpedia.org/resource/Folk_music" />
+    <dbpedia-owl:thumbnail rdf:resource="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Christhile.jpg/200px-Christhile.jpg" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.jambase.com/headsup.asp?storyID=9068" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.woodsongs.com/showlist.asp" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.newmusicbox.org/article.nmbx?id=5811" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.nickelcreek.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.punchbrothers.com" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://telluride.plumtv.com/videos/our_grass_blue" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.mandolincafe.com/news/publish/mandolins_001351.shtml" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://www.laco.org/artists/357/" />
+    <dbpedia-owl:wikiPageExternalLink rdf:resource="http://cornellsun.com/node/21197" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Mike_Marshall_(musician)" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Nickel_Creek" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Punch_Brothers" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/The_Goat_Rodeo_Sessions" />
+    <dbpprop:associatedActs rdf:resource="http://dbpedia.org/resource/Edgar_Meyer" />
+    <dbpprop:background xml:lang="en">solo_singer</dbpprop:background>
+    <dbpprop:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-02-19+02:00</dbpprop:birthDate>
+    <dbpprop:birthPlace xml:lang="en">Oceanside, California, United States</dbpprop:birthPlace>
+    <dbpprop:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1981-02-19+02:00</dbpprop:dateOfBirth>
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Bluegrass_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Classical_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Progressive_bluegrass" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Country_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Folk_music" />
+    <dbpprop:genre rdf:resource="http://dbpedia.org/resource/Jazz" />
+    <dbpprop:imageSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</dbpprop:imageSize>
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Tenor_guitar" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Banjo" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Guitar" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Singing" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Sitar" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Drum_kit" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandolin" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Violin" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Piano" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Mandola" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Viola" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Cello" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Bouzouki" />
+    <dbpprop:instrument rdf:resource="http://dbpedia.org/resource/Double_bass" />
+    <dbpprop:label xml:lang="en">Nonesuch</dbpprop:label>
+    <dbpprop:label xml:lang="en">Sugar Hill</dbpprop:label>
+    <dbpprop:name xml:lang="en">Chris Thile</dbpprop:name>
+    <dbpprop:name xml:lang="en">Thile, Chris</dbpprop:name>
+    <dbpprop:notableInstruments xml:lang="en">Gibson Lloyd Loar F5 Mandolin , Lynn Dudenbostel F5 Mandolin No. 5 and No. 14, Lawrence Smart mandola, Flatiron bouzouki</dbpprop:notableInstruments>
+    <dbpprop:occupation rdf:resource="http://dbpedia.org/resource/Musician" />
+    <dbpprop:occupation rdf:resource="http://dbpedia.org/resource/Singer-songwriter" />
+    <dbpprop:origin xml:lang="en">United States</dbpprop:origin>
+    <dbpprop:placeOfBirth xml:lang="en">Oceanside, California, United States</dbpprop:placeOfBirth>
+    <dbpprop:shortDescription xml:lang="en">American musician</dbpprop:shortDescription>
+    <dbpprop:website rdf:resource="http://www.punchbrothers.com" />
+    <dbpprop:yearsActive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1989</dbpprop:yearsActive>
+    <foaf:homepage rdf:resource="http://www.punchbrothers.com" />
+    <dbpprop:wordnet_type rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-musician-noun-1" />
+    <foaf:givenName xml:lang="en">Chris</foaf:givenName>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Chris_Thile" />
+    <dc:description xml:lang="en">American musician</dc:description>
+    <ns8:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Chris_Thile?oldid=548448399" />
+    <dbpprop:hasPhotoCollection rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Chris_Thile" />
+    <foaf:surname xml:lang="en">Thile</foaf:surname>
+    <dbpedia-owl:wikiPageInLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174</dbpedia-owl:wikiPageInLinkCount>
+    <dbpedia-owl:wikiPageOutLinkCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189</dbpedia-owl:wikiPageOutLinkCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Deceiver_(Chris_Thile_album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Not_All_Who_Wander_Are_Lost_(album)">
+    <dbpedia-owl:artist rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpedia-owl:producer rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nickel_Creek">
+    <dbpedia-owl:formerBandMember rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+    <dbpprop:pastMembers rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chris_Thile_&amp;_the_Tensions_Mountain_Boys">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chris_Thile_discography">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Christopher_Scott_Thile">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/HTGAB">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/How_to_Grow_a_Band">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thile">
+    <dbpedia-owl:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Chris_Thile">
+    <foaf:primaryTopic rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ja.dbpedia.org/resource/クリス・シーリ">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://wikidata.dbpedia.org/resource/Q596779">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://simple.dbpedia.org/resource/Chris_Thile">
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Chris_Thile" />
+  </rdf:Description>
+</rdf:RDF>
