@@ -1,0 +1,151 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns8: <http://www.w3.org/ns/prov#> .
+
+<http://dbpedia.org/resource/Chris_Thile>
+    dbpedia-owl:abstract ". Chris Thile es un integrante del grupo californiano de bluegrass Nickel Creek, cuyo instrumento es la mandolina."@es, "Chris Thile é um bandolinista norte-americano, conhecido do grupo californiano dos bluegrass Nickel Creek. Além disso, Thile gravou cinco álbuns como projectos desde 1994, intitulado primeiramente Leading Off. Em 2008, Thile planeja liberar seu sexto álbum com sua faixa nova, Punch Brothers. O grupo tem quatro membros além de Thile: Noam Pikelny, Greg Garrison, Gabe Witcher, e Chris Eldridge."@pt, "Christopher Scott Thile is an American musician, best known as the mandolinist and a singer for the progressive acoustic trio Nickel Creek and acoustic folk/bluegrass quintet the Punch Brothers. He is a 2012 MacArthur Fellow."@en, "Il suo cognome si pronuncia \"tili\"."@it, "クリス・シーリはアメリカ合衆国カリフォルニア州出身のブルーグラスミュージシャン、フラットマンドリン奏者。 米国にかつて存在したバンド、ニッケル・クリークの元メンバー、現在はパンチ・ブラザーズのメンバー、マンドリン奏者、ボーカリスト。"@ja ;
+    dbpedia-owl:activeYearsStartYear "1989+02:00"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+    dbpedia-owl:associatedBand <http://dbpedia.org/resource/Edgar_Meyer>, <http://dbpedia.org/resource/Mike_Marshall_(musician)>, <http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)>, <http://dbpedia.org/resource/Nickel_Creek>, <http://dbpedia.org/resource/Punch_Brothers>, <http://dbpedia.org/resource/The_Goat_Rodeo_Sessions> ;
+    dbpedia-owl:associatedMusicalArtist <http://dbpedia.org/resource/Edgar_Meyer>, <http://dbpedia.org/resource/Mike_Marshall_(musician)>, <http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)>, <http://dbpedia.org/resource/Nickel_Creek>, <http://dbpedia.org/resource/Punch_Brothers>, <http://dbpedia.org/resource/The_Goat_Rodeo_Sessions> ;
+    dbpedia-owl:background "solo_singer"@en ;
+    dbpedia-owl:birthDate "1981-02-19+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dbpedia-owl:birthPlace <http://dbpedia.org/resource/California>, <http://dbpedia.org/resource/Oceanside,_California> ;
+    dbpedia-owl:genre <http://dbpedia.org/resource/Bluegrass_music>, <http://dbpedia.org/resource/Classical_music>, <http://dbpedia.org/resource/Country_music>, <http://dbpedia.org/resource/Folk_music>, <http://dbpedia.org/resource/Jazz>, <http://dbpedia.org/resource/Progressive_bluegrass> ;
+    dbpedia-owl:instrument <http://dbpedia.org/resource/Banjo>, <http://dbpedia.org/resource/Bouzouki>, <http://dbpedia.org/resource/Cello>, <http://dbpedia.org/resource/Double_bass>, <http://dbpedia.org/resource/Drum_kit>, <http://dbpedia.org/resource/Flatiron>, <http://dbpedia.org/resource/Gibson_Guitar_Corporation>, <http://dbpedia.org/resource/Guitar>, <http://dbpedia.org/resource/Mandola>, <http://dbpedia.org/resource/Mandolin>, <http://dbpedia.org/resource/Piano>, <http://dbpedia.org/resource/Singing>, <http://dbpedia.org/resource/Sitar>, <http://dbpedia.org/resource/Tenor_guitar>, <http://dbpedia.org/resource/Viola>, <http://dbpedia.org/resource/Violin> ;
+    dbpedia-owl:occupation <http://dbpedia.org/resource/Musician>, <http://dbpedia.org/resource/Singer-songwriter> ;
+    dbpedia-owl:recordLabel <http://dbpedia.org/resource/Nonesuch_Records>, <http://dbpedia.org/resource/Sugar_Hill_Records> ;
+    dbpedia-owl:thumbnail <http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Christhile.jpg/200px-Christhile.jpg> ;
+    dbpedia-owl:wikiPageExternalLink <http://cornellsun.com/node/21197>, <http://telluride.plumtv.com/videos/our_grass_blue>, <http://www.jambase.com/headsup.asp?storyID=9068>, <http://www.laco.org/artists/357/>, <http://www.mandolincafe.com/news/publish/mandolins_001351.shtml>, <http://www.newmusicbox.org/article.nmbx?id=5811>, <http://www.nickelcreek.com>, <http://www.punchbrothers.com>, <http://www.woodsongs.com/showlist.asp> ;
+    dbpedia-owl:wikiPageID 2139925 ;
+    dbpedia-owl:wikiPageInLinkCount 174 ;
+    dbpedia-owl:wikiPageOutLinkCount 189 ;
+    dbpedia-owl:wikiPageRevisionID 548448399 ;
+    dbpprop:associatedActs <http://dbpedia.org/resource/Edgar_Meyer>, <http://dbpedia.org/resource/Mike_Marshall_(musician)>, <http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)>, <http://dbpedia.org/resource/Nickel_Creek>, <http://dbpedia.org/resource/Punch_Brothers>, <http://dbpedia.org/resource/The_Goat_Rodeo_Sessions> ;
+    dbpprop:background "solo_singer"@en ;
+    dbpprop:birthDate "1981-02-19+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dbpprop:birthPlace "Oceanside, California, United States"@en ;
+    dbpprop:dateOfBirth "1981-02-19+02:00"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dbpprop:genre <http://dbpedia.org/resource/Bluegrass_music>, <http://dbpedia.org/resource/Classical_music>, <http://dbpedia.org/resource/Country_music>, <http://dbpedia.org/resource/Folk_music>, <http://dbpedia.org/resource/Jazz>, <http://dbpedia.org/resource/Progressive_bluegrass> ;
+    dbpprop:hasPhotoCollection <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Chris_Thile> ;
+    dbpprop:imageSize 250 ;
+    dbpprop:instrument <http://dbpedia.org/resource/Banjo>, <http://dbpedia.org/resource/Bouzouki>, <http://dbpedia.org/resource/Cello>, <http://dbpedia.org/resource/Double_bass>, <http://dbpedia.org/resource/Drum_kit>, <http://dbpedia.org/resource/Guitar>, <http://dbpedia.org/resource/Mandola>, <http://dbpedia.org/resource/Mandolin>, <http://dbpedia.org/resource/Piano>, <http://dbpedia.org/resource/Singing>, <http://dbpedia.org/resource/Sitar>, <http://dbpedia.org/resource/Tenor_guitar>, <http://dbpedia.org/resource/Viola>, <http://dbpedia.org/resource/Violin> ;
+    dbpprop:label "Nonesuch"@en, "Sugar Hill"@en ;
+    dbpprop:name "Chris Thile"@en, "Thile, Chris"@en ;
+    dbpprop:notableInstruments "Gibson Lloyd Loar F5 Mandolin , Lynn Dudenbostel F5 Mandolin No. 5 and No. 14, Lawrence Smart mandola, Flatiron bouzouki"@en ;
+    dbpprop:occupation <http://dbpedia.org/resource/Musician>, <http://dbpedia.org/resource/Singer-songwriter> ;
+    dbpprop:origin "United States"@en ;
+    dbpprop:placeOfBirth "Oceanside, California, United States"@en ;
+    dbpprop:shortDescription "American musician"@en ;
+    dbpprop:website <http://www.punchbrothers.com> ;
+    dbpprop:wordnet_type <http://www.w3.org/2006/03/wn/wn20/instances/synset-musician-noun-1> ;
+    dbpprop:yearsActive 1989 ;
+    dc:description "American musician"@en ;
+    dcterms:subject <http://dbpedia.org/resource/Category:1981_births>, <http://dbpedia.org/resource/Category:American_banjoists>, <http://dbpedia.org/resource/Category:American_bluegrass_musicians>, <http://dbpedia.org/resource/Category:American_guitarists>, <http://dbpedia.org/resource/Category:American_mandolinists>, <http://dbpedia.org/resource/Category:American_singer-songwriters>, <http://dbpedia.org/resource/Category:Living_people>, <http://dbpedia.org/resource/Category:MacArthur_Fellows>, <http://dbpedia.org/resource/Category:Murray_State_University_alumni>, <http://dbpedia.org/resource/Category:Nickel_Creek_members>, <http://dbpedia.org/resource/Category:People_from_Oceanside,_California> ;
+    a <http://dbpedia.org/class/yago/Alumnus109786338>, <http://dbpedia.org/class/yago/AmericanBluegrassMusicians>, <http://dbpedia.org/class/yago/AmericanGuitarists>, <http://dbpedia.org/class/yago/Artist109812338>, <http://dbpedia.org/class/yago/CausalAgent100007347>, <http://dbpedia.org/class/yago/Creator109614315>, <http://dbpedia.org/class/yago/Entertainer109616922>, <http://dbpedia.org/class/yago/Guitarist110151760>, <http://dbpedia.org/class/yago/Intellectual109621545>, <http://dbpedia.org/class/yago/LivingPeople>, <http://dbpedia.org/class/yago/LivingThing100004258>, <http://dbpedia.org/class/yago/MurrayStateUniversityAlumni>, <http://dbpedia.org/class/yago/Musician110339966>, <http://dbpedia.org/class/yago/Musician110340312>, <http://dbpedia.org/class/yago/Object100002684>, <http://dbpedia.org/class/yago/Organism100004475>, <http://dbpedia.org/class/yago/PeopleFromSanDiegoCounty,California>, <http://dbpedia.org/class/yago/Performer110415638>, <http://dbpedia.org/class/yago/Person100007846>, <http://dbpedia.org/class/yago/PhysicalEntity100001930>, <http://dbpedia.org/class/yago/Scholar110557854>, <http://dbpedia.org/class/yago/Whole100003553>, <http://dbpedia.org/class/yago/YagoLegalActor>, <http://dbpedia.org/class/yago/YagoLegalActorGeo>, dbpedia-owl:Agent, dbpedia-owl:Artist, dbpedia-owl:MusicalArtist, dbpedia-owl:Person, <http://schema.org/MusicGroup>, <http://schema.org/Person>, <http://umbel.org/umbel/rc/MusicalPerformer>, owl:Thing, foaf:Person ;
+    rdfs:comment ". Chris Thile es un integrante del grupo californiano de bluegrass Nickel Creek, cuyo instrumento es la mandolina."@es, "Chris Thile é um bandolinista norte-americano, conhecido do grupo californiano dos bluegrass Nickel Creek. Além disso, Thile gravou cinco álbuns como projectos desde 1994, intitulado primeiramente Leading Off. Em 2008, Thile planeja liberar seu sexto álbum com sua faixa nova, Punch Brothers. O grupo tem quatro membros além de Thile: Noam Pikelny, Greg Garrison, Gabe Witcher, e Chris Eldridge."@pt, "Christopher Scott Thile is an American musician, best known as the mandolinist and a singer for the progressive acoustic trio Nickel Creek and acoustic folk/bluegrass quintet the Punch Brothers. He is a 2012 MacArthur Fellow."@en, "Il suo cognome si pronuncia \"tili\"."@it, "クリス・シーリはアメリカ合衆国カリフォルニア州出身のブルーグラスミュージシャン、フラットマンドリン奏者。 米国にかつて存在したバンド、ニッケル・クリークの元メンバー、現在はパンチ・ブラザーズのメンバー、マンドリン奏者、ボーカリスト。"@ja ;
+    rdfs:label "Chris Thile"@en, "Chris Thile"@es, "Chris Thile"@it, "Chris Thile"@pt, "クリス・シーリ"@ja ;
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile>, <http://es.dbpedia.org/resource/Chris_Thile>, <http://it.dbpedia.org/resource/Chris_Thile>, <http://ja.dbpedia.org/resource/クリス・シーリ>, <http://pt.dbpedia.org/resource/Chris_Thile>, <http://rdf.freebase.com/ns/m.01m15br>, <http://simple.dbpedia.org/resource/Chris_Thile>, <http://www.wikidata.org/entity/Q596779>, <http://yago-knowledge.org/resource/Chris_Thile> ;
+    ns8:wasDerivedFrom <http://en.wikipedia.org/wiki/Chris_Thile?oldid=548448399> ;
+    foaf:depiction <http://upload.wikimedia.org/wikipedia/commons/b/bc/Christhile.jpg> ;
+    foaf:givenName "Chris"@en ;
+    foaf:homepage <http://www.punchbrothers.com> ;
+    foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Chris_Thile> ;
+    foaf:name "Chris Thile"@en ;
+    foaf:surname "Thile"@en .
+
+<http://dbpedia.org/resource/Chris_Thile_&_the_Tensions_Mountain_Boys>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Chris_Thile_discography>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Christopher_Scott_Thile>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Deceiver_(Chris_Thile_album)>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpedia-owl:producer <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:artist <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/HTGAB>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/How_to_Grow_a_Band>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/How_to_Grow_a_Woman_from_the_Ground>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpedia-owl:producer <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:artist <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Leading_Off>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Mutual_Admiration_Society_(collaboration)>
+    dbpedia-owl:bandMember <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Nickel_Creek>
+    dbpedia-owl:formerBandMember <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:pastMembers <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Not_All_Who_Wander_Are_Lost_(album)>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpedia-owl:producer <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Punch_(album)>
+    dbpprop:note <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Punch_Brothers>
+    dbpedia-owl:bandMember <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:currentMembers <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Scotch_&_Chocolate>
+    dbpedia-owl:writer <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:writer <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Sierra_Hull>
+    dbpedia-owl:associatedBand <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpedia-owl:associatedMusicalArtist <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:associatedActs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Stealing_Second>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/The_Goat_Rodeo_Sessions>
+    dbpedia-owl:artist <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:artist <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/The_Lighthouse's_Tale>
+    dbpedia-owl:writer <http://dbpedia.org/resource/Chris_Thile> ;
+    dbpprop:writer <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://dbpedia.org/resource/Thile>
+    dbpedia-owl:wikiPageRedirects <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://en.wikipedia.org/wiki/Chris_Thile>
+    foaf:primaryTopic <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://es.dbpedia.org/resource/Chris_Thile>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://it.dbpedia.org/resource/Chris_Thile>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://ja.dbpedia.org/resource/クリス・シーリ>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://pt.dbpedia.org/resource/Chris_Thile>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://simple.dbpedia.org/resource/Chris_Thile>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+
+<http://wikidata.dbpedia.org/resource/Q596779>
+    owl:sameAs <http://dbpedia.org/resource/Chris_Thile> .
+

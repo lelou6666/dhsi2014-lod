@@ -3,3 +3,6 @@
 
 * Pull down dbpedia data as triples.
 ** rapper http://dbpedia.org/resource/David_Grisman
+
+* Pull down dbpedia data as turtle.
+** rapper -oturtle http://dbpedia.org/resource/David_Grisman
